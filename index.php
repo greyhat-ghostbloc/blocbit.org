@@ -131,11 +131,6 @@ if (! empty($_POST)) {
         echo 'failed to authticate with that key';
         exit;
       }
-	  
-	  $blocPin = new BlocIDPinReq();
-		$email = 'va1idus@hotmail.com' ;
-	  $blocPin->request_login_code($email);
-
       $j = 'ok';
       
       break;
